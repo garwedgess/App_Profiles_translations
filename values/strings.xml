@@ -1,0 +1,118 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">App Profiles</string>
+
+    <!-- Fragments -->
+    <string name="title_fragment_applications">Applications</string>
+    <string name="title_fragment_profiles">Profiles</string>
+    <string name="title_fragment_commands">Commands</string>
+    <string name="title_fragment_settings">Settings</string>
+
+    <!-- Activities -->
+    <string name="title_activity_path_picker">Choose A File</string>
+    <string name="title_activity_create_profile">Create Profile</string>
+
+    <!-- Toast messages -->
+    <string name="toast_message_double_tap_to_exit">Double tap to exit</string>
+    <string name="toast_message_service_restored_sys_settings">Restored system default settings</string>
+    <string name="toast_message_service_profile_applied">Profile %1$s, applied for %2$s</string>
+    <string name="toast_message_no_profiles_in_list">No profiles have yet been added. Add one to get started.</string>
+    <string name="toast_message_boot_service_started">App Profiles: Service started</string>
+    <string name="toast_message_cannot_multi_select_search">You cannot multi-select items when searching</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Drawer open</string>
+    <string name="navigation_drawer_close">Drawer close</string>
+
+    <!-- Menu actions -->
+    <string name="action_search">Search</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_duplicate">Duplicate</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_commands">Commands will appear here when added</string>
+    <string name="empty_list_no_profiles">Profiles will appear here when added</string>
+
+    <!-- Card Message -->
+    <string name="card_empty_value_tap_to_add_value"><![CDATA[< Tap to add a value >]]></string>
+
+    <!-- Settings prefs -->
+    <string name="pref_title_dark_theme">Dark Theme</string>
+    <string name="pref_summary_dark_theme">Switch the application to a dark material theme.</string>
+    <string name="pref_title_disable_toast">Disable Toast Notifications</string>
+    <string name="pref_summary_disable_toast">Show toast notifications when a profile is being applied for an application.</string>
+    <string name="pref_title_stop_app_service">Stop App Service</string>
+    <string name="pref_summary_stop_app_service">*** WARNING *** Stopping the service will defeat the purpose of this application as profiles will not be applied.</string>
+    <string name="pref_title_set_on_boot">Set On Boot</string>
+    <string name="pref_summary_set_on_boot">When checked the service will start itself on boot.</string>
+    <string name="background_view_show_sys_apps">Show System Apps</string>
+
+    <!-- Dialog buttons -->
+    <string name="dialog_btn_yes">Yes</string>
+    <string name="dialog_btn_no">No</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_deselect_profile">De-select Current Profile</string>
+
+    <!-- Base command titles -->
+    <string name="command_title_cpu_max_freq">CPU Maximum Frequency</string>
+    <string name="command_title_cpu_min_freq">CPU Minimum Frequency</string>
+    <string name="command_title_cpu_governor">CPU Scaling Governor</string>
+
+    <!-- Alert titles -->
+    <string name="alert_title_multi_selection">Multi-Selection</string>
+    <string name="alert_title_profile_for">Profile for %1$s</string>
+    <string name="alert_title_command_name">Command Name</string>
+    <string name="alert_title_command_path">Path</string>
+    <string name="alert_title_duplicate_profile">Duplicate Profile</string>
+    <string name="alert_title_root">Root</string>
+
+    <!-- AlertDialog messages -->
+    <string name="alert_message_confirm_command_deletion">Deleting the command will also delete it from profiles which include the command, are you sure you want to delete the command?</string>
+    <string name="alert_message_confirm_profile_deletion">Are you sure you want to delete&lt;br>&lt;br>&lt;b>Profile:&#160;&lt;/b>%1$s&lt;br>&lt;b>From:&lt;/b>&#160;%2$s</string>
+    <string name="alert_message_no_root">AppProfiles cannot gain root access, this maybe due to you not granting su permissions to the application or your device may not be rooted.</string>
+    <string name="alert_message_no_busybox">\n\nWe have detected that your device does not have busybox installed. You need busybox installed in order to run this application..</string>
+
+    <!-- MultiChoice -->
+    <string name="context_action_select_all">Select All</string>
+    <string name="context_selected_items">%1$d Item(s)</string>
+
+    <!-- Error Text -->
+    <string name="error_empty_value">Value cannot be empty</string>
+    <string name="error_path_blank">Path cannot be blank</string>
+    <string name="error_name_blank">Name cannot be blank</string>
+    <string name="error_profile_name_blank">Profile name cannot be blank</string>
+    <string name="error_alert_command_exists">Command name already exists</string>
+    <string name="error_profile_name_exists">Profile name already exists</string>
+    <string name="error_alert_title">Error</string>
+
+    <!-- Hints -->
+    <string name="hint_click_profile_name">Click to set profile name</string>
+    <string name="hint_enter_a_value">Enter a value</string>
+
+    <!-- SnackBar Text -->
+    <string name="snackbar_undo">Undo</string>
+    <string name="snackbar_deleted_single_command">Deleted command %1$s</string>
+    <string name="snackbar_deleted_single_profile">Deleted profile %1$s</string>
+    <string name="snackbar_deleted_single_app_profile">Deleted profile %1$s from %2$s</string>
+
+    <!-- Values -->
+    <string name="value_freq_mhz">%1$d MHz</string>
+
+    <!--Licensing -->
+    <string name="lvl_checking_license">Checking license&#8230;</string>
+    <string name="lvl_dont_allow">Don\'t allow the user access</string>
+    <string name="lvl_allow">Allow the user access</string>
+    <string name="lvl_application_error">Application error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="lvl_unlicensed_dialog_title">Application not licensed</string>
+    <string name="lvl_unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="lvl_unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="lvl_buy_button">Buy app</string>
+    <string name="lvl_retry_button">Retry</string>
+    <string name="lvl_quit_button">Exit</string>
+</resources>
