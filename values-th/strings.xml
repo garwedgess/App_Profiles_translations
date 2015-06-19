@@ -58,9 +58,9 @@
     <string name="dialog_btn_deselect_profile">ไม่เลือกโปรไฟล์ปัจจุบัน</string>
 
     <!-- Base command titles -->
-    <string name="command_title_cpu_max_freq">ใช้ CPU ความถี่สูงสุด</string>
-    <string name="command_title_cpu_min_freq">ใช้ CPU ความถี่ต่ำสุด</string>
-    <string name="command_title_cpu_governor">ใช้ CPU ความถี่แบบปรับค่าเอง</string>
+    <string name="command_title_cpu_max_freq">ความถี่สูงสุดของ CPU</string>
+    <string name="command_title_cpu_min_freq">ความถี่ต่ำสุดของ CPU</string>
+    <string name="command_title_cpu_governor">รูปแบบการจัดการความถี่ของ CPU</string>
 
     <!-- Alert titles -->
     <string name="alert_title_multi_selection">เลือกหลายรายการ</string>
