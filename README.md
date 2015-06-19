@@ -10,3 +10,4 @@ https://play.google.com/store/apps/details?id=eu.wedgess.appprofiles
 
 # Completed Strings
 - English (me)
+- Thai (spicydog)

@@ -1,0 +1,119 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">โปรไฟล์แอพ</string>
+
+    <!-- Fragments -->
+    <string name="title_fragment_applications">แอพพลิเคชั่น</string>
+    <string name="title_fragment_profiles">โปรไฟล์</string>
+    <string name="title_fragment_commands">คำสั่ง</string>
+    <string name="title_fragment_settings">ตั้งค่า</string>
+
+    <!-- Activities -->
+    <string name="title_activity_path_picker">เลือกไฟล์</string>
+    <string name="title_activity_create_profile">สร้างโปรไฟล์</string>
+
+    <!-- Toast messages -->
+    <string name="toast_message_double_tap_to_exit">แตะสองครั้งเพื่อออก</string>
+    <string name="toast_message_service_restored_sys_settings">คืนค่าเริ่มต้น</string>
+    <string name="toast_message_service_profile_applied">โปรไฟล์ %1$s, เริ่มใช้งานกับ %2$s</string>
+    <string name="toast_message_no_profiles_in_list">ไม่มีโปรไฟล์ สร้างสักอันเพื่อเริ่มใช้งาน</string>
+    <string name="toast_message_boot_service_started">โปรไฟล์แอพ: เซอร์วิสซ์เริ่มทำงาน</string>
+    <string name="toast_message_cannot_multi_select_search">คุณไม่สามารถเลือกหลายรายการพร้อมกันในขณะกำลังค้นหา</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">เปิดแถบเมนู</string>
+    <string name="navigation_drawer_close">ปิดแถบเมนู</string>
+
+    <!-- Menu actions -->
+    <string name="action_search">ค้นหา</string>
+    <string name="action_edit">แก้ไข</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_add">เพิ่ม</string>
+    <string name="action_duplicate">คัดลอก</string>
+
+    <!-- Empty lists -->
+    <string name="empty_list_no_commands">คำสั่งจะปรากฏตรงนี้เมื่อถูกสร้าง</string>
+    <string name="empty_list_no_profiles">โปรไฟล์จะปรากฏตรงนี้เมื่อถูกสร้าง</string>
+
+    <!-- Card Message -->
+    <string name="card_empty_value_tap_to_add_value"><![CDATA[< แตะเพื่อเพิ่มค่า >]]></string>
+
+    <!-- Settings prefs -->
+    <string name="pref_title_dark_theme">ธีมมืด</string>
+    <string name="pref_summary_dark_theme">เปลี่ยนธีมเป็นธีมมืด</string>
+    <string name="pref_title_disable_toast">ปิดแถบแจ้งเตือน</string>
+    <string name="pref_summary_disable_toast">แสดงแถบแจ้งเตือนเมื่อโปรไฟล์เริ่มทำงาน</string>
+    <string name="pref_title_stop_app_service">ปิดเซอร์วิสซ์</string>
+    <string name="pref_summary_stop_app_service">*** คำเตือน *** การปิดเซอร์วิสซ์อาจทำให้การทำงานของโปรแกรมไม่สมบูรณ์</string>
+    <string name="pref_title_set_on_boot">เริ่มใช้งานตั้งแต่เปิดเครื่อง</string>
+    <string name="pref_summary_set_on_boot">เมื่อถูกเลือก เซอร์วิสซ์จะเปิดใช้งานทันทีเมื่อเปิดเครื่อง</string>
+    <string name="background_view_show_sys_apps">แสดงแอพของระบบ</string>
+
+    <!-- Dialog buttons -->
+    <string name="dialog_btn_yes">ใช้</string>
+    <string name="dialog_btn_no">ไม่</string>
+    <string name="dialog_btn_ok">ตกลง</string>
+    <string name="dialog_btn_cancel">ยกเลิก</string>
+    <string name="dialog_btn_deselect_profile">ไม่เลือกโปรไฟล์ปัจจุบัน</string>
+
+    <!-- Base command titles -->
+    <string name="command_title_cpu_max_freq">ความถี่สูงสุดของ CPU</string>
+    <string name="command_title_cpu_min_freq">ความถี่ต่ำสุดของ CPU</string>
+    <string name="command_title_cpu_governor">รูปแบบการจัดการความถี่ของ CPU</string>
+
+    <!-- Alert titles -->
+    <string name="alert_title_multi_selection">เลือกหลายรายการ</string>
+    <string name="alert_title_profile_for">โปรไฟล์สำหรับ %1$s</string>
+    <string name="alert_title_command_name">ชื่อคำสั่ง</string>
+    <string name="alert_title_command_path">พาร์ท</string>
+    <string name="alert_title_duplicate_profile">คัดลอกโปรไฟล์</string>
+    <string name="alert_title_root">รูท</string>
+
+
+    <!-- AlertDialog messages -->
+    <string name="alert_message_confirm_command_deletion">การลบคำสั่งจะเป็นการลบมันออกจากโปรไฟล์ด้วย คุณแน่ใจว่าจะลบคำสั่งนี้ใช่หรือไม่?</string>
+    <string name="alert_message_confirm_profile_deletion">ยินยันการลบ &lt;br>&lt;br>&lt;b>โปรไฟล์:&#160;&lt;/b>%1$s&lt;br>&lt;b>จาก:&lt;/b>&#160;%2$s</string>
+    <string name="alert_message_no_root">ไม่ได้รับสิทธิ์รูท คุณอาจจะไม่ได้ให้สิทธิ์รูทกับโปรแกรม หรือเครื่องของคุณไม่ได้ผ่านการรูท</string>
+    <string name="alert_message_no_busybox">\n\nไม่พบการติดตั้ง busybox กรุณาติดตั้ง busybox เพื่อใช้งานโปรแกรม</string>
+
+    <!-- MultiChoice -->
+    <string name="context_action_select_all">เลือกทั้งหมด</string>
+    <string name="context_selected_items">%1$d รายการ</string>
+
+    <!-- Error Text -->
+    <string name="error_empty_value">ค่าข้อมูลไม่สามารถเป็นช่องว่าง</string>
+    <string name="error_path_blank">พาร์ทไม่สามารถเป็นช่องว่าง</string>
+    <string name="error_name_blank">ชื่อไม่สามารถเป็นช่องว่าง</string>
+    <string name="error_profile_name_blank">ชื่อโปรไฟล์ไม่สามารถเป็นช่องว่าง</string>
+    <string name="error_alert_command_exists">คำสั่งเคยมีอยู่แล้ว</string>
+    <string name="error_profile_name_exists">โปรไฟล์เคยมีอยู่แล้ว</string>
+    <string name="error_alert_title">เกิดข้อผิดพลาด</string>
+
+    <!-- Hints -->
+    <string name="hint_click_profile_name">กดเพื่อตั้งชื่อโปรไฟล์</string>
+    <string name="hint_enter_a_value">ใส่ข้อมูล</string>
+
+    <!-- SnackBar Text -->
+    <string name="snackbar_undo">ย้อนกลับ</string>
+    <string name="snackbar_deleted_single_command">ลบคำสั่ง %1$s</string>
+    <string name="snackbar_deleted_single_profile">ลบโปรไฟล์ %1$s</string>
+    <string name="snackbar_deleted_single_app_profile">ลบโปรไฟล์ %1$s จาก %2$s</string>
+
+    <!-- Values -->
+    <string name="value_freq_mhz">%1$d MHz</string>
+
+    <!--Licensing -->
+    <string name="lvl_checking_license">กำลังตรวจสอบไลเซนส์&#8230;</string>
+    <string name="lvl_dont_allow">ไม่อนุญาตให้ผู้ใช้ใช้งาน</string>
+    <string name="lvl_allow">อนุญาตให้ผู้ใช้ใช้งาน</string>
+    <string name="lvl_application_error">แอพพลิเคชั่นเกิดข้อผิดพลาด: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="lvl_unlicensed_dialog_title">แอพพลิเคชั่นไม่มีไลเซนส์</string>
+    <string name="lvl_unlicensed_dialog_body">กรุณาซื้อแอพพลิเคชั่นผ่านทาง Play Store</string>
+    <string name="lvl_unlicensed_dialog_retry_body">ไม่สามารถตรวจสอบไลเซนส์ได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="lvl_buy_button">ซื้อแอพพลิเคชั่น</string>
+    <string name="lvl_retry_button">ลองใหม่</string>
+    <string name="lvl_quit_button">ออก</string>
+</resources>
